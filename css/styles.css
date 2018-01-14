@@ -1,0 +1,160 @@
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.maincontainer{
+    background:url('images/banner.jpg');
+    background-size: cover;
+    width: 100%;
+}
+
+#navigationbar{
+    background: #111f26;
+    opacity: 0.8;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+.linetext{
+    color: red;
+    background: #D9D9D9;
+    width: 101%;
+    padding-top: 10%;
+    padding-left: 17%;
+    padding-right: 13%;
+    padding-bottom: 0.5%;
+    margin-top: -8%;
+    margin-left: -1%;
+}
+
+.moustache{
+    position: absolute;
+    margin-top: -34%;
+    margin-left: -10%;
+    
+}
+
+.secondtext{
+    padding: 100px;
+}
+
+.secondimage{
+    opacity:1;
+    width: 50vw;
+}
+
+.active{
+    color:red;
+}
+
+a:hover{
+    color:red;
+    text-decoration: none;
+}
+
+#logo{
+    margin-left: 6%;
+    padding: 25px;
+}
+
+li,a{
+    margin-right: 15px;
+    display:inline;
+    color: white;
+    text-decoration: none;
+}
+
+.formcontainer{
+    background: rgb(56, 56, 56);
+    color:white;
+    padding: 10%;
+    width: 100%;
+}
+
+input[type=text] {
+    border: 1px solid #999;
+    border-radius: 0;
+    background: rgb(104, 104, 104);
+}
+
+textarea{
+        border: 1px solid #999;
+        border-radius: 0;
+        width: 504px;
+        padding: 12px;
+        background: rgb(104, 104, 104);
+ }
+
+.inputtextarea{
+    height: 200px;
+}
+
+#menuitems,ul{
+    float: right;
+    list-style-type: none;
+    margin-top: -2.7%;
+    padding-right: 45px;
+}
+
+.carousel{
+    height: 500px;
+}
+
+.maintext{
+    width: 674px;
+    margin-top: 200px;
+    color:white;
+    margin-left: 300px;
+}
+
+.subtext{
+    width: 674px;
+    color:white;
+    margin-left: 300px;
+}
+
+.thirdcontainer{
+    background:url('images/banner1.jpg');
+    background-size:cover;
+    color:white;
+    padding: 8%;
+    width: 100%;
+}
+
+.borderless td {
+    border: none;
+}
+
+footer{
+    text-align:center;
+    color:white;
+    padding: 2%;
+    background: rgb(39, 39, 39);
+    width: 100%;
+}
+
+.buttonarea{
+    border: 1px solid #999;
+    border-radius: 0;
+    background: rgb(104, 104, 104);
+    width: 25%;
+    height: 15%;
+    padding: 3%;
+    color:white;
+    border: 2px solid rgb(139, 0, 0);
+}
+
+.fourthcontainer{
+    padding: 10%;
+    width: 100%;
+}
+
+.people img{
+    border: 10px solid red;
+    border-radius: 150px;
+    margin-top: 10%;
+}
